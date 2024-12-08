@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  
+  
+  
+}
+
+.login {
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  
+  padding: 24px;
+  color: white;
+  background: #41424D;
+  width: 250px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 12px 26px #00000063;
+}
+
+.container input {
+  margin-bottom: 12px;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  width: 200px;
+  height: 30px;
+  box-shadow: 0 5px 5px #00000070;
+  outline: none;
+  padding-left: 4px;
+}
+
+.container button {
+  margin-top: 12px;
+  border: none;
+  border-radius: 6px;
+  width: 200px;
+  height: 35px;
+  text-size: 36px;
+  font-size: 26px;
+  font-family:"Oswald" ;
+  box-shadow: 0 5px 5px #00000070;
+}
+
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+lable {
+  text-size: 16px;
+  font-weight: 500px;
+}
+
+
+
+button:hover {
+  background: #1DFFB463;
+  color: white;
+}
+
+a {
+  color: white;
+  margin-bottom: 6px;
+  font-size: 10px;
+  display: flex;
+  width: 45%;
+}
+
+.dn {
+  height: 23px;
+  width: 25px;
+  border: none;
+  border-radius: 5px;
+}
