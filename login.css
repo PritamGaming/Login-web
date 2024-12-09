@@ -8,32 +8,38 @@
 }
 
 body {
+
   align-items: center;
+
   justify-content: center;
-  margin-top: 140px;
-  
-  
-  
+  height: 100vh;
+  display: flex;
+  margin: 20px;
 }
 
-.login {
+div {
+  background: transparent;
+  width: 300px;
   align-items: center;
   justify-content: center;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px 4px #2F2E2EA1;
+  text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.5);
 }
-.container {
+
+form {
   display: flex;
   flex-direction: column;
+  height: 320px;
+  width: 300px;
+  position: relative;
   margin: 50px;
-  
-  padding: 24px;
   color: white;
-  background: #41424D;
-  width: 250px;
-  border: none;
-  border-radius: 12px;
-  box-shadow: 0 12px 26px #00000063;
+  padding-bottom: 20px;
+  
+  justify-content: center;
 }
-
 .container input {
   margin-bottom: 12px;
   color: black;
@@ -89,4 +95,39 @@ a {
   width: 25px;
   border: none;
   border-radius: 5px;
+}
+
+h1{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+  color: floralwhite;
+}
+
+#username {
+  background: url("/user-solid.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 15px;
+  background-position: right center;
+  padding: 10px;
+}
+
+#email {
+  background: url("/envelope-solid.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 15px;
+  background-position: right center;
+  padding: 10px;
+}
+
+#password {
+  background: url("/lock-solid.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 15px;
+  background-position: right center;
+  padding: 10px;
+}
+
+#password:hover , #email:hover , #username:hover {
+  background: none;
 }
